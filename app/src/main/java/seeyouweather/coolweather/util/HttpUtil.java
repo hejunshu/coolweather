@@ -1,4 +1,4 @@
-package com.coolweather.util;
+package seeyouweather.coolweather.util;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

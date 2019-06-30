@@ -1,4 +1,4 @@
-package com.coolweather;
+package seeyouweather.coolweather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 
 import com.coolweather.gson.Weather;
-import com.coolweather.util.WeatherActivity;
-
-import java.util.prefs.PreferenceChangeEvent;
+import seeyouweather.coolweather.util.WeatherActivity;
 
 public class MainActivity extends AppCompatActivity {
 

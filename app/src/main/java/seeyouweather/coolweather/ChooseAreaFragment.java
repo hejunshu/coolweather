@@ -1,4 +1,4 @@
-package com.coolweather;
+package seeyouweather.coolweather;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -18,14 +18,13 @@ import androidx.fragment.app.Fragment;
 import com.coolweather.db.City;
 import com.coolweather.db.County;
 import com.coolweather.db.Province;
-import com.coolweather.util.HttpUtil;
-import com.coolweather.util.Utility;
-import com.coolweather.util.WeatherActivity;
+import seeyouweather.coolweather.util.HttpUtil;
+import seeyouweather.coolweather.util.Utility;
+import seeyouweather.coolweather.util.WeatherActivity;
 
 import org.litepal.crud.DataSupport;
 
 import java.io.IOException;
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 

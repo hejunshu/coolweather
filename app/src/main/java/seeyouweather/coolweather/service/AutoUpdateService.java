@@ -1,19 +1,17 @@
-package com.coolweather.service;
+package seeyouweather.coolweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
-import android.app.Presentation;
 import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.os.SystemClock;
-import android.preference.Preference;
 import android.preference.PreferenceManager;
 
 import com.coolweather.gson.Weather;
-import com.coolweather.util.HttpUtil;
-import com.coolweather.util.Utility;
+import seeyouweather.coolweather.util.HttpUtil;
+import seeyouweather.coolweather.util.Utility;
 
 import java.io.IOException;
 

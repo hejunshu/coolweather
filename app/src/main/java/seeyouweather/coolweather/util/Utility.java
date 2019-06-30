@@ -1,4 +1,4 @@
-package com.coolweather.util;
+package seeyouweather.coolweather.util;
 
 import android.text.TextUtils;
 

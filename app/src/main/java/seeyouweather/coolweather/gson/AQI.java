@@ -1,4 +1,4 @@
-package com.coolweather.gson;
+package seeyouweather.coolweather.gson;
 
 public class AQI {
     public AQICity city;
