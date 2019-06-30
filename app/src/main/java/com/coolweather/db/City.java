@@ -4,6 +4,7 @@ import org.litepal.crud.DataSupport;
 
 /************存放省的数据对应的实体类***********/
 public class City extends DataSupport {
+
     private int id;           //记录市的id
     private String cityName;  //记录市的名称
     private int cityCode;     //记录市的代号
@@ -25,9 +26,7 @@ public class City extends DataSupport {
     }
 
     //获取市的代号
-    public int getCityCode(){
-        return cityCode;
-    }
+    public int getCityCode(){ return cityCode; }
     public void setCityCode(int cityCode){
         this.cityCode = cityCode;
     }
